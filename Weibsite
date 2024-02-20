@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Games Portal</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .game-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .game-frame {
+            width: 400px;
+            height: 600px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Fun Games Portal!</h1>
+    <div class="game-container">
+        <iframe class="game-frame" src="https://1v1.lol/"></iframe>
+        <iframe class="game-frame" src="https://justfall.lol/"></iframe>
+    </div>
+    <!-- Add more game iframes here -->
+</body>
+</html>
